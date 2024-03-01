@@ -5,7 +5,6 @@ const ButtonsContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     width: 437px;
-    height: 48px;
 `
 
 const NoBackgroundButton  = styled.button`

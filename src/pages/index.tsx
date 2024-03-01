@@ -1,21 +1,21 @@
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
+import Main from "@/components/Main/Main";
 import styled from "styled-components";
 
-const MainContainer = styled.main`
-  display:flex;
-  justify-content:center;
-  align-items:center;
+const HomeContainer = styled.main`
+  display: block;
+  height: 100vh;
+  flex-wrap: wrap;
+  margin: 138px;
+
 `
-const HeaderContainer = styled.div`
-  background: white;
-  margin:138px;
-  width:100%;
-  height:100%;
-`
+
+
 const Home = ()=>(
-  <MainContainer>
-    <HeaderContainer><Header /></HeaderContainer>
-  </MainContainer>
+  <HomeContainer>
+   <Header />
+    <Main/>
+  </HomeContainer>
 )
 
 export default Home;
