@@ -13,7 +13,8 @@ const NoBackgroundButton  = styled.button`
 const ButtonWithBackground = styled.button`
     background: green;
     color: white;
-    padding: 3px 2px;
+    padding: 3px 10px;
+    border-radius: 0.5rem;
 `
 const HeaderButtons = ()=>(
     <ButtonsContainer>

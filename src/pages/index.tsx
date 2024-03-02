@@ -6,7 +6,7 @@ const HomeContainer = styled.main`
   display: block;
   height: 100vh;
   flex-wrap: wrap;
-  margin: 138px;
+  margin:12px 138px;
 
 `
 

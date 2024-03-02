@@ -2,26 +2,29 @@ import styled from "styled-components";
 
 
 const MainButtonsContainer  = styled.div`
-    width: 50%;
+    width: 488px;
     display:flex;
-    justify-content: space-between;
-    padding:0px 20px
-
 `
 
 const ButtonWithBackground = styled.button`
     background-color: green;
+    font-size:16px;
     color : white;
-    padding: 5px 10px;
+    width:232px;
+    height:48px;
     border-radius: 0.5rem;
+    margin-right: 24px
 `
 
 const NoBackgroundButton = styled.button`
     background-color: white;
     color: green;
+    font-size:16px;
     border: 2px green solid;
-    padding: 5px 10px;
+    width:232px;
+    height:48px;
     border-radius: 0.5rem;
+
 `
 
 const MainButtons = ()=>(
