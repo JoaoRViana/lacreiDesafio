@@ -7,7 +7,7 @@ const MainButtonsContainer  = styled.div`
 `
 
 const ButtonWithBackground = styled.button`
-    background-color: green;
+    background-color: #018762;
     font-size:16px;
     color : white;
     width:232px;
@@ -18,9 +18,9 @@ const ButtonWithBackground = styled.button`
 
 const NoBackgroundButton = styled.button`
     background-color: white;
-    color: green;
+    color: #018762;
     font-size:16px;
-    border: 2px green solid;
+    border: 2px #018762 solid;
     width:232px;
     height:48px;
     border-radius: 0.5rem;

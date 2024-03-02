@@ -5,16 +5,15 @@ import RightContent from "./RightContent";
 
 
 const MainContainer = styled.div`
-    background-color: green;
     width: 100%;
-    heigth: 603px;
+    height: 603px;
+    
 `
 const ContentsContainer = styled.div`
     display:flex;
     flex-wrap:wrap;
     height:491px;
-    background-color:red;
-    justify-content: space-between
+    justify-content: space-between;
     width: 100%;
 `
 
@@ -26,7 +25,7 @@ const  Main = ()=>(
         <LeftContent/>
         <RightContent/>
         </ContentsContainer>
-        
+        <BigLine height={64} />
     </MainContainer>
 );
 

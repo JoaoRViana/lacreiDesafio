@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import Main from "@/components/Main/Main";
 import styled from "styled-components";
@@ -13,8 +14,9 @@ const HomeContainer = styled.main`
 
 const Home = ()=>(
   <HomeContainer>
-   <Header />
+    <Header />
     <Main/>
+    <Footer/>
   </HomeContainer>
 )
 

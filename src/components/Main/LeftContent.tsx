@@ -7,9 +7,6 @@ import BigLine from "./BigLine";
 const Container = styled.div`
     width:60%;
     height:100%;
-    margin-left:15px;
-    background-color:rgb(200,400,100);
-    margin-right:12%;
 `
 
 const LeftContent = ()=>(
