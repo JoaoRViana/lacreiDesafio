@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-    width: 240px;
-    height: 152px;
+    max-width: 240px;
     display:flex;
     flex-wrap:wrap;
 `;
@@ -10,6 +9,7 @@ const Button = styled.button``
 
 const LinksContainer = styled.div`
     display: flex;
+    flex-wrap:wrap;
     width: 240px;
     justify-content: space-between;
     align-items: center;

@@ -5,9 +5,8 @@ import styled from "styled-components";
 const HeaderContainer = styled.div`
     display: flex;
     justify-content: space-between;
+    flex-wrap:wrap;
     width: 100%;
-    height: 96px;
-    background: white;
 
 `
 

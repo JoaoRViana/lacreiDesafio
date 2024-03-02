@@ -4,7 +4,7 @@ import Main from "@/components/Main/Main";
 import styled from "styled-components";
 
 const HomeContainer = styled.main`
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   margin:12px 138px;
 

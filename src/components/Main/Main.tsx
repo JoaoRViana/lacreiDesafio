@@ -6,13 +6,13 @@ import RightContent from "./RightContent";
 
 const MainContainer = styled.div`
     width: 100%;
-    height: 603px;
+    display:flex;
+    flex-wrap:wrap;
     
 `
 const ContentsContainer = styled.div`
     display:flex;
     flex-wrap:wrap;
-    height:491px;
     justify-content: space-between;
     width: 100%;
 `

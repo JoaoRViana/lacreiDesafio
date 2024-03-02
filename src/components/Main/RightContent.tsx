@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ImageContainer = styled.div`
     width: 400px;
-    height: 491px;
+    max-height: 491px;
     border-radius: 8px;
 `
 

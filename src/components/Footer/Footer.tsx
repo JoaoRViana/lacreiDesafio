@@ -5,7 +5,8 @@ import Disclaimer from "./Disclaimer";
 import BigLine from "../Main/BigLine";
 
 const Container = styled.div`
-    display:block;
+    display:flex;
+    flex-wrap:wrap;
     width: 100%;
 `;
 
@@ -19,7 +20,6 @@ const SocialAboutContainer = styled.div`
     justify-content:space-between;
     flex-wrap:wrap;
     width: 100%;
-    height: 195px;
 `
 
 const Footer = () => (
