@@ -12,10 +12,12 @@ const Container = styled.div`
 const Title = styled.h1`
     font-weight: 700;
     font-size:18px;
+    line-height:27px;
+    margin-bottom:8px;
 `
 
 const Li = styled.li`
-    margin-top:24px;
+    margin-top:16px
 `
 
 const Ul = styled.ul`
@@ -23,7 +25,8 @@ const Ul = styled.ul`
 `
 
 const A= styled.a`
-    font-size:18px;
+    font-size:16px;
+    line-height:24px;
 `
 
 const About = ()=>(

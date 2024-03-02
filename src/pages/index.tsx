@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 const HomeContainer = styled.main`
   display: block;
-  height: 100vh;
   flex-wrap: wrap;
   margin:12px 138px;
 
