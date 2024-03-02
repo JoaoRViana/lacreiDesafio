@@ -6,6 +6,7 @@ const Container = styled.div`
     display:flex;
     flex-wrap:wrap;
 `;
+const Button = styled.button``
 
 const LinksContainer = styled.div`
     display: flex;
@@ -59,10 +60,18 @@ const Social = () => (
     <Container>
         <Logo />
         <LinksContainer>
-            <Facebook />
-            <Instagram />
-            <Linkedin />
-            <Email />
+            <Button>
+                <Facebook />
+            </Button>
+            <Button>
+                <Instagram />
+            </Button>
+            <Button>
+                <Linkedin />
+            </Button>
+            <Button>
+                <Email />
+            </Button>
         </LinksContainer>
     </Container>
 );

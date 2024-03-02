@@ -1,15 +1,23 @@
 import styled from "styled-components";
 
-const GenericImage = styled.div`
+const ImageContainer = styled.div`
     width: 400px;
     height: 491px;
-    background-image: url("/assets/imgDesafio.jpg");
-    background-size: cover; 
-    background-position: center;
+    border-radius: 8px;
 `
 
-const RightContent = () => (
-    <GenericImage />
+const Image = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+`
+
+
+const GenericImage = () => (
+    <ImageContainer>
+        <Image src="/assets/imgDesafio.jpg" alt="médica e paciente" />
+    </ImageContainer>
 )
 
-export default RightContent;
+export default GenericImage;

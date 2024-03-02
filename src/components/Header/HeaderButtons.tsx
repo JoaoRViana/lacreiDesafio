@@ -24,6 +24,8 @@ const ButtonWithBackground = styled.button`
     font-size:18px;
     line-height:27px;
     font-weight: 700;
+    box-shadow: 0px 5px 10px 0px #0000004D;
+
 `
 const HeaderButtons = ()=>(
     <ButtonsContainer>

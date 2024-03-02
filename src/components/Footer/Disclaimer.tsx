@@ -10,6 +10,8 @@ const TextContainer = styled.div`
 
 `
 
+const Button = styled.button``
+
 const UpButton = styled.div`
     width: 48px; 
     height: 48px;
@@ -51,7 +53,9 @@ const Disclaimer = ()=>(
                 Copyright ©️ 2021 Lacrei. Todos os direitos reservados. CNPJ:51.265.351/0001-65
             </TextCopyright>
         </TextContainer>
-        <UpButton />
+        <Button>
+            <UpButton />
+        </Button>
     </Container>
 )
 
