@@ -5,6 +5,8 @@ const Container = styled.div`
     flex-wrap:wrap;
     width:100%;
     justify-content:space-between;
+    align-items: flex-start;
+    margin-bottom:12px;
 `
 
 const TextContainer = styled.div`
