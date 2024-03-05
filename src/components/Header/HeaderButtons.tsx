@@ -29,9 +29,9 @@ const ButtonWithBackground = styled.button`
 `
 const HeaderButtons = ()=>(
     <ButtonsContainer>
-        <NoBackgroundButton>Quem somos</NoBackgroundButton>
-        <NoBackgroundButton>Ajuda</NoBackgroundButton>
-        <ButtonWithBackground>Entrar</ButtonWithBackground>
+        <NoBackgroundButton data-testid="header-QuemSomos-bttn">Quem somos</NoBackgroundButton>
+        <NoBackgroundButton data-testid="header-Ajuda-bttn">Ajuda</NoBackgroundButton>
+        <ButtonWithBackground data-testid="header-Entrar-bttn">Entrar</ButtonWithBackground>
     </ButtonsContainer>
 )
 

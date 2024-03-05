@@ -18,7 +18,7 @@ const HeaderLogo = styled.div`
 
 const Logo = () => (
   <Container>
-      <HeaderLogo/>
+      <HeaderLogo data-testid="header-logo"/>
   </Container>
 );
 
