@@ -35,7 +35,7 @@ const NoBackgroundButton = styled.button`
 `
 
 const MainButtons = ()=>(
-    <MainButtonsContainer>
+    <MainButtonsContainer data-testid="main-bttns">
         <ButtonWithBackground>Buscar atendimento </ButtonWithBackground>
         <NoBackgroundButton>Oferecer atendimento </NoBackgroundButton>
     </MainButtonsContainer>

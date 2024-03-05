@@ -15,7 +15,7 @@ const Image = styled.img`
 
 
 const GenericImage = () => (
-    <ImageContainer>
+    <ImageContainer data-testid="main-img">
         <Image src="/assets/imgDesafio.jpg" alt="médica e paciente" />
     </ImageContainer>
 )

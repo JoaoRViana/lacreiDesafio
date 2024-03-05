@@ -29,7 +29,7 @@ const SmallGreenLine = styled.div`
 `
 
 const TextContent = ()=>(
-    <ContentContainer>
+    <ContentContainer data-testid="main-textContent">
         <Title>Junte-se à</Title>
         <Title>nossa comunidade</Title>
         <SmallGreenLine />
