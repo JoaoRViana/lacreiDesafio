@@ -14,7 +14,7 @@ const ButtonWithBackground = styled.button`
     line-height:27px;
     font-weight: 700;
     color : white;
-    max-width:232px;
+    width:232px;
     height:48px;
     margin-right: 24px;
     border-radius: 8px;
@@ -27,7 +27,7 @@ const NoBackgroundButton = styled.button`
     line-height:27px;
     font-weight: 700;
     border: 2px #018762 solid;
-    max-width: 232px;
+    width: 232px;
     height: 48px;
     border-radius: 8px;
 
