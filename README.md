@@ -138,5 +138,7 @@ describe('Testando Header', () => {
 2. Navegue até o diretório do projeto.
 3. Execute o seguinte comando para rodar o teste:
 
-``npm test``
+```bash
+npm test
+```
 
