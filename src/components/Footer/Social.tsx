@@ -58,18 +58,18 @@ const Linkedin = styled.div`
 
 const Social = () => (
     <Container>
-        <Logo />
+        <Logo data-testid="footer-logo"/>
         <LinksContainer>
-            <Button>
+            <Button data-testid="footer-facebook">
                 <Facebook />
             </Button>
-            <Button>
+            <Button data-testid="footer-instagram">
                 <Instagram />
             </Button>
-            <Button>
+            <Button data-testid="footer-linkedin">
                 <Linkedin />
             </Button>
-            <Button>
+            <Button data-testid="footer-email">
                 <Email />
             </Button>
         </LinksContainer>

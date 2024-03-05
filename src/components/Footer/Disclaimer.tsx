@@ -44,19 +44,19 @@ const TextCopyright = styled.p`
 const Disclaimer = ()=>(
     <Container>
         <TextContainer>
-            <TextDisclaimer>
+            <TextDisclaimer data-testid="footer-firstTextDisclaimer">
                 A lacrei não oferece tratamento médico emergencial. Em caso de emergência procure o hospital
                 mais próximo. 
             </TextDisclaimer>
-            <TextDisclaimer>
+            <TextDisclaimer data-testid="footer-secondTextDisclaimer">
                 Em caso de problemas psicológicos, ligue para 188 (CVVV) ou acesse o site
                 www.cvv.org.br
             </TextDisclaimer>
-            <TextCopyright>
+            <TextCopyright data-testid="footer-copyright">
                 Copyright ©️ 2021 Lacrei. Todos os direitos reservados. CNPJ:51.265.351/0001-65
             </TextCopyright>
         </TextContainer>
-        <Button>
+        <Button data-testid="footer-UpBttn">
             <UpButton />
         </Button>
     </Container>
